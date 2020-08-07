@@ -16,7 +16,7 @@ def apply_discount(arg)
 
 end
 
-def items(i1, i2, i3 =nil)
+def items(i1, i2, i3=nil)
 
 end
 
