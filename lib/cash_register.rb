@@ -20,7 +20,7 @@ def apply_discount
 discount_percent = @discount.to_f / 100
 new_total = (@total * (1.0 - discount_percent))
 # binding.pry
-"After the discount, the total comes to $#{new_total}"
+"After the discount, the total comes to $#{new_total.to_i}"
 end
 
 def items(i1, i2)
