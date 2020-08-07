@@ -12,7 +12,7 @@ def add_item
 
 end
 
-def apply_discount
+def apply_discount(arg)
 
 end
 
