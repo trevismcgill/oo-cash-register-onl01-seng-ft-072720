@@ -16,8 +16,8 @@ def add_item(title, price, quantity = 1)
 end
 
 def apply_discount
-  binding.pry
-@total * ()@discount.to_f / 100)
+  # binding.pry
+@total * (@discount.to_f / 100)
 puts "After the discount, the total comes to $#{@total}"
 end
 
