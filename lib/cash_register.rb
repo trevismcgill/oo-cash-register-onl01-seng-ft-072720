@@ -1,6 +1,6 @@
 class CashRegister
 
-def initialize
+def initialize(arg)
 
 end
 end
