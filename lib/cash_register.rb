@@ -20,6 +20,7 @@ def apply_discount
 (@total * (100 - @discount).to_f)
 # binding.pry
 puts "After the discount, the total comes to $#{@total}"
+@total
 end
 
 def items(i1, i2)
