@@ -8,7 +8,7 @@ def total
 
 end
 
-def add_item
+def add_item(i1, i2)
 
 end
 
