@@ -5,7 +5,7 @@ def initialize
 end
 
 def total
-
+@total
 end
 
 def add_item(i1, i2)
