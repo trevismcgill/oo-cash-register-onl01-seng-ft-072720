@@ -31,7 +31,7 @@ end
 
 end
 
-def items(i1, i2)
+def items
 @cart
 end
 
