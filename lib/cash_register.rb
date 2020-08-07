@@ -5,6 +5,7 @@ attr_accessor :total, :discount :cart
 def initialize(discount = 0)
 @total = 0
 @discount = discount
+@cart = []
 end
 
 def total
@@ -12,6 +13,7 @@ def total
 end
 
 def add_item(title, price, quantity = 1)
+  
 @total += price * quantity
 end
 
@@ -30,7 +32,7 @@ end
 end
 
 def items(i1, i2)
-
+@cart
 end
 
 def void_last_transaction
