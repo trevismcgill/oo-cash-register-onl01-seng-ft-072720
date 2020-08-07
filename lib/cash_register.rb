@@ -18,7 +18,7 @@ end
 def apply_discount
   # binding.pry
 @discount.to_f
-new_total = @total * (1.0 - @discount))
+new_total = @total * 1.0 - @discount
 # binding.pry
 puts "After the discount, the total comes to $#{new_total}"
 @total
