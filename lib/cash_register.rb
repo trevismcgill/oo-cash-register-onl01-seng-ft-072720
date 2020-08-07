@@ -8,7 +8,7 @@ def total
 @total
 end
 
-def add_item(title, price)
+def add_item(title, price, quantity=1)
 
 end
 
@@ -16,7 +16,7 @@ def apply_discount(arg)
 
 end
 
-def items(i1, i2, i3=nil)
+def items(i1, i2)
 
 end
 
