@@ -13,7 +13,7 @@ def total
 end
 
 def add_item(title, price, quantity = 1)
-quantity.times @cart.push(title)
+quantity.times {@cart.push(title)}
 @total += price * quantity
 end
 
