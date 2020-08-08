@@ -16,6 +16,7 @@ end
 def add_item(title, price, quantity = 1)
 quantity.times {@cart.push(title)}
 @last_item[@cart[-1]] = price
+binding.pry
 @total += price * quantity
 end
 
