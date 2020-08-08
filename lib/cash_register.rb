@@ -36,6 +36,7 @@ def items
 end
 
 def void_last_transaction
+  binding.pry
 @cart.pop
 if @cart = []
   @total = 0
