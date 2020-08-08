@@ -41,3 +41,4 @@ if @cart = []
   @total = 0
 end
 end
+end
