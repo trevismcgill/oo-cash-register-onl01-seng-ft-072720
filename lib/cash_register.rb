@@ -37,5 +37,7 @@ end
 
 def void_last_transaction
 @cart.pop
+if @cart = []
+  @total = 0
 end
 end
